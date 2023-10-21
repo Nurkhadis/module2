@@ -51,7 +51,7 @@ namespace module2
             Console.Write("Введите 1:");
             int a = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Введите  2:");
+            Console.Write("Введите 2:");
             int b = Convert.ToInt32(Console.ReadLine());
             int sum = 0;
             for (int i = a; i <= b; i++)
@@ -70,7 +70,7 @@ namespace module2
         static void example15()
         {
 
-            Console.Write("Введите:");
+            Console.Write("Введите: ");
             int a = Convert.ToInt32(Console.ReadLine());
             int b = a / 10;
             int c = a % 10;
